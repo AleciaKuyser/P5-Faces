@@ -1,0 +1,62 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+select, input, button, label {
+  text-align: center;
+}
+
+button {
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif!important; 
+}
+
+canvas {
+  display: block;
+}
+
+/* input[type=checkbox] {
+  position: absolute;
+  top: 0
+} */
+
+#selContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+#selContainer > * {
+  margin-bottom: 5px;
+}
+
+#selContainer > button, select {
+  width: 100%
+}
+
+#title {
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+}
+
+#smaller {
+  text-align: center;
+  font-size: 11pt;
+}
+
+input[type=text] {
+  width: 50px!important
+}
+
+/* #posSelector {
+  display: flex;
+  flex-direction: column;
+} */
+
+label {
+  display:inline-block;
+  text-align: right;
+}
